@@ -25,7 +25,7 @@ SECRET_KEY = '5&89^)camx$4!ni(smj)hdz6e+ig92@_m#ol7rd)qud4_p7u)k'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['scripterAPI.pythonanywhere.com']
+ALLOWED_HOSTS = ['localhost']
 
 
 # Application definition

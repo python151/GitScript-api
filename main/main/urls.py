@@ -26,6 +26,11 @@ urlpatterns = [
 
     path('get/scripts/', api.getMyScripts),
     path('get/<int:id>/', api.getScript),
+    path('delete/script/<int:id>/', api.deleteScript),
     path('save/<int:scriptId>/<slug:fileName>/', api.saveFile),
-    path('create/', api.createScript)
+    path('delete/<int:scriptId>/<slug:fileName>/', api.deleteFileFromScript),
+    path('change/filename/', api.changeFileName),
+    path('run/<int:id>/', api.runScript),
+    path('create/', api.createScript),
+    path('user/<int:id>/', api.getPublicUserInfo),
 ]
